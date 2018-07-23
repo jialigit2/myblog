@@ -1,0 +1,10 @@
+#category{
+  //background-color: #d4edda;
+  border:solid #d4edda 2px;
+  border-radius: 25px;
+  padding-top:20px;
+}
+
+ul li{
+  list-style-type: square;
+}

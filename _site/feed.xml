@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-23T16:25:14+08:00</updated><id>/</id><title type="html">嘉立的网络日志</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Gary Liu</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2018/07/21/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-07-21T22:05:26+08:00</published><updated>2018-07-21T22:05:26+08:00</updated><id>/jekyll/update/2018/07/21/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2018/07/21/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Gary Liu</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">青春</title><link href="/poems/2018/07/21/%E9%9D%92%E6%98%A5.html" rel="alternate" type="text/html" title="青春" /><published>2018-07-21T00:00:00+08:00</published><updated>2018-07-21T00:00:00+08:00</updated><id>/poems/2018/07/21/%E9%9D%92%E6%98%A5</id><content type="html" xml:base="/poems/2018/07/21/%E9%9D%92%E6%98%A5.html">&lt;p&gt;category: poems&lt;/p&gt;
+
+&lt;h1 id=&quot;青春&quot;&gt;青春&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;21 July  - Xi'an&lt;/p&gt;
+
+&lt;p&gt;聒噪，不安，焦虑。。。。。。 青春是什么？青春不再是童年，也不是成年的老成，青春是萌发的种子，想要破土而出的嫩芽。童年的脚步稚嫩，老年的脚步蹒跚，成年的脚步稳健，那么青春的脚步就是左右踌躇，盼望中有无奈，欣喜中有伤悲。   人生也许很长，但是青春是岔路口。   我们必须停下来，看看。看看自己从何处来，要到何处去？边看边走，或停下来看清楚了再走。青春的路就是一只脚踩了出来，一只脚刚从童年的时光抬起不知道往哪里放的那种尴尬。   青春有梦想，青春就是要实现梦想。青春要的是实现梦想的喜悦，但是青春又怕实现不了梦想随之而来的痛苦。所以青春做了很多梦，但是能实现的只有那么一个。梦太远，够不着；梦太小，不甘心。这就是青春的梦，它总有现实的阻碍。追梦是梦幻的，是浪漫的，但也会有伤痛，也会有挫折。世界上的最让人感到成功的就是关于战胜挫折的记忆，而最难以承受的是在挫折面前站不起。青春爱追梦，青春就是一场梦。   无所谓。青春之路上的最大勇气就是失败了无所谓，成功了再来一次。   青春是孤独的。因为被人不理解，因为别人很难理解。理解不了才有意思嘛，理解了就没有秘密了。   青春是狂傲不羁的，因为青春就是一首诗，醉酒中写下的才是快意人生。   青春需要自己走，但是这一路很长。人生很短暂，须臾而已。青春很漫长，因为我们耽误太多，选择太多，由于太多，想的太多。因为青春不喜欢跟别人重样，有怕走到沟里去。   青春需要大声歌唱，忘记自我，忘记整个世界。](http://news.ycombinator.com/item?id=1627246)&lt;/p&gt;</content><author><name>Gary Liu</name></author><category term="poems" /><summary type="html">category: poems</summary></entry><entry><title type="html">Daily Thoughts</title><link href="/2016/09/09/daily-thoughts.html" rel="alternate" type="text/html" title="Daily Thoughts" /><published>2016-09-09T00:00:00+08:00</published><updated>2016-09-09T00:00:00+08:00</updated><id>/2016/09/09/daily-thoughts</id><content type="html" xml:base="/2016/09/09/daily-thoughts.html">&lt;!DOCTYPE html&gt;
+
+&lt;!--[if lt IE 7]&gt;      &lt;html class=&quot;no-js lt-ie9 lt-ie8 lt-ie7&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;         &lt;html class=&quot;no-js lt-ie9 lt-ie8&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;         &lt;html class=&quot;no-js lt-ie9&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt; &lt;html class=&quot;no-js&quot;&gt; &lt;!--&lt;![endif]--&gt;
+
+    &lt;head&gt;
+
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+        &lt;title&gt;思考的芦苇&lt;/title&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+
+        &lt;!-- Main Style Sheet --&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap/bootstrap.css&quot;&gt;
+        &lt;!-- Modernizr --&gt;
+        &lt;script src=&quot;js/vendor/modernizr-2.6.2.min.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- Respond.js for IE 8 or less only --&gt;
+        &lt;!--[if (lt IE 9) &amp; (!IEMobile)]&gt;
+            &lt;script src=&quot;js/vendor/respond.min.js&quot;&gt;&lt;/script&gt;
+        &lt;![endif]--&gt;
+	&lt;style&gt;
+	body{
+		font-family: Georgia, serif;
+		letter-spacing: -0.01em;
+		word-spacing: 0.2em;
+		line-height: 1.8em;
+		font-size: 62.5%;
+		color: #111111;
+ 
+		background-image: linear-gradient(to bottom,#dff0d8 0,#c8e5bc 100%);
+
+	}
+	
+	p{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	#container{
+		width:1000px;
+		 
+		
+		margin:0 auto;
+	}
+	#container h1{
+		font-size:25px;
+	}
+	#container p{
+		width:600px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	
+	#container p.p-cn{
+		line-height: 30px;
+	}
+	#container a{
+		font-size:14px;
+		color:black;
+		
+		 
+	}
+	
+	ul{
+		padding:0;
+	}
+	.title{
+		 
+		font-size:40px;
+		text-align:lef;
+		text-indent:50px;
+	}
+	&lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+         &lt;!--[if lte IE 7]&gt;
+            &lt;p class=&quot;chromeframe&quot;&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please &lt;a href=&quot;http://browsehappy.com/&quot;&gt;upgrade your browser&lt;/a&gt; or &lt;a href=&quot;http://www.google.com/chromeframe/?redirect=true&quot;&gt;activate Google Chrome Frame&lt;/a&gt; to improve your experience.&lt;/p&gt;
+        &lt;![endif]--&gt;
+		&lt;div id=&quot;container&quot; class=&quot;container&quot;&gt;
+			 &lt;h1&gt;一年杭州生活的总结&lt;/h1&gt;
+&lt;h2&gt; 1.工作&lt;/h2&gt;
+&lt;p&gt;从去年八月底来杭州，到现在刚刚好一年。杭州是互联网之都，我也是从事互联网大数据的相关开发工作，个人总结感觉说个人技术层面的东西的提升，更多地要受到两个方面的影响。一个是互联网的内容，另一个是周围工作的氛围。第一个方面，在全世界任何地方，只要能正常上网我想应该不会有太多的差异。关键是看自己知识体系的建构到了什么阶段。第二个方面，我要讲的周围是个小范围的意思，也就是不超出公司的这个范围，它是直接影响你会接触到什么技术和与什么样的人一同学习工作。在实践中会非常有助于理解一个技术的各个细节并且能够彻底掌握它。须知，对于一个技术人员来讲，熟练才是硬道理，技能熟练了才是真正的技能。整个城市的互联网产业其实并不能直接影响到程序员个人的成长的，他们一般可以间接的通过对从业公司的业务产生影响，再传导到技术人员这里。&lt;/p&gt;
+&lt;p&gt;说起大数据，这三个字近几年人人都在说，但不是人人都都懂的一个概念。数据是以前就有的，那么这个大作何理解？光这个“大&quot;从定义上看显得非常具有后现代的特征。就是它看上去并不像是个定义，倒非常像是个对一个印象的模糊的概括。就像物种的演化一样，大数据，云计算这类概念也是互联网本身演化的结果，网络中系统在自我生长的过程中，相互通信，适应，各种标准，协议应运而生，这些都极大地扩展了人类自身五官和大脑。现在的计算机不光是人类的玩具，更是成为了人类自身的外延，它不光代替人的手脚，身体，还要代替人的脑。&lt;/p&gt;
+&lt;p&gt;人类处在这样一个时代，对大部分人来来说就像是青春期的成长，身心身体发育的不同步会给人带来诸多问题，计算机的这种超前发展也会给人类社会带来前所未有的挑战。对人类的挑战，其实也是社会变革的时机，很多个人借助这个契机可以成为未来社会的主流，就像是古代哺乳类动物在那个寒冷的漫长时代逐步占领地球一样。&lt;/p&gt;
+&lt;h2&gt;2.生活&lt;/h2&gt;
+&lt;h2&gt;杭州气候宜人，西湖更是一颗明珠镶嵌在这个如诗如画的土地上。除了在杭州西湖，西溪湿地，大运河等处溜达外，我还去过杭州周边邻近的一些地方转悠，其中包括：&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2&gt;1) 环太湖骑行&lt;/h2&gt;
+&lt;p&gt;年初的时候，我曾一人骑着从迪卡侬买来的800元山地车经杭州，湖州，长兴，宜兴，无锡，苏州，嘉兴，桐乡，杭州，总行程超过700公里，经过了环太湖的的主要城市，跨越浙江省和江苏省两省，加上休息共历时6天。平均下来每天骑行100公里多一些，用时每天7小时多一点。其中，杭州城北到长兴县第一天骑行比较猛，差不多150公里有，到达湖州的时候4点半左右，吃了个饭，继续走，不多久天就黑了，这一段最是煎熬，前不着村后不着店啊，手机没电的情况下就没了导航，因为是边骑便下来看俺导航，最后一段纯粹是凭着感觉骑，前面的旅店也没有订，只能硬着头皮往前走，差不多到8点半左右，终于到了长兴县城。算是第一天到站，路上也人车都不多了，这一路都是住在锦江之星，价格中间，性价比还不错。&lt;/p&gt;
+&lt;p&gt;由于第一天比较疲惫，所以决定第二天到宜兴就下来休息，途径浃蒲，然后是沿着太湖南段，经过浙江省江苏省省界，路上也很荒凉，只有一些陶器厂作坊，一直到下午3点多进入宜兴市。从宜兴到无锡段，中途经过十里明珠堤，需要往回骑一段，因为之前看过其他人的介绍，这一段不可错过，于是我也绕过十里明珠堤，骑了一遍。太湖很大，看上去跟大海没什么分别，这里是常州，无锡重要的度假胜地。无锡比较有名的地方去了那个三国水浒城，两个地方紧靠在一起，从外面看也差不多，只是上面的几个字不一样，平时里面也就是一些歌舞表演，好像是一百元门票。紧接着从无锡到苏州，嘉兴骑行，这一天和第一天一样辛苦，直接到晚上9点才到，中间还是在路旁的一处摆摊的”饭店“吃了一顿饺子，因为是过年，城里的店都关门了，在无锡只能在肯德基吃的汉堡，鸡腿，过了苏州就没有什么人烟了。所以，一个人出行，在中国是需要做好充足的准备的，时间，路线提前都必须规划好。到达嘉兴，我有休息了一天，然后才返回杭州，下午就到了，因为前一天休息地比较充分，最后一天能够很从容地骑完。&lt;/p&gt;
+&lt;p&gt;通过这次骑行，使我对中国城市的印象更加深刻了。在中国，不仅仅是一线城市北上广深，即使是二三线城市像杭州，苏州，无锡，人口的季节性迁徙特征非常明显，一到春节，整个城就像突然变成空的了。&lt;/p&gt;
+&lt;h2&gt;2）乌镇&lt;/h2&gt;
+&lt;p&gt;乌镇也是我去的一个比较有意思的地方，环境，水看起来都非常不错，黄磊，刘若英还在那拍了《似水年华》，很好的一个片子。整体的感觉是热闹而不吵。正赶上去的时候还是细雨绵绵，很有那种江南水乡的感觉。每走过一个巷子，每过一个堂口，似乎里面都有一段故事。电视剧里的逢源双桥其实很普通，但是因为有了一个故事在里面，顿时也变的厚重起来。&lt;/p&gt;
+&lt;h2&gt;3）黄山&lt;/h2&gt;
+&lt;p&gt;黄山也去过一次，顺道还去了宏村。黄山风景秀丽，奇峰怪石，非常的入画。这一带盛产竹子，就像是卧虎藏龙里面那种感觉，茂密的竹海。宏村旅游的人太多了，感觉有点聒噪。买了纪念品，酒，一本书。可惜买的酒没有喝完就干掉了，估计我是没有盖严实。以后去旅游再也不买酒了。&lt;/p&gt;
+&lt;h2&gt;4）G20&lt;/h2&gt;
+&lt;p&gt;杭州开G20峰会，感觉政府对这类事总是莫名的亢奋，封路就不说了，什么查暂住证，旧路统统敲掉换成新的，一切工程都要赶在G20前完工，就像是进京赶考的秀才一样，如临大敌。其实这些倒也关不了我的大事。只是一件，G20前后，杭州大多数店铺，商店，饭馆都关了，企业建议放假，然后再调休，我呢自己不做饭，每天吃饭都成了问题，还泡面吃。我只能说，无语。&lt;/p&gt;
+&lt;h2&gt;3.打算&lt;/h2&gt;
+&lt;p&gt;1.读书 多读书，读好书。以前买了很多书，很多还未读完，或者读了也是一知半解。读书就要读出自己的境界，构建出自己的思想体系。打算是写一个公众好，专门记录自己的读书体会。&lt;/p&gt;
+&lt;p&gt;2.锻炼 健康最重要。今年做过一次的小手术，越发地觉得身体的重要性。不论干什么事，好的身体都是先决条件。&lt;/p&gt;
+&lt;p&gt;3.善待对自己好的人，人生其实很短暂。说给自己，不忘初心，不畏将来！&lt;/p&gt;
+&lt;p&gt;4.磨练技术，在行业有所建树。我已经在自己的博客和github上关注了一些开源项目，希望能够下一年正真做一些好东西，发挥出这么多年下来积攒下来的潜力。&lt;/p&gt;
+&lt;p&gt;5.这么多年的社会经历和观察，我决心要在十年之内著成两部书。《宁夏人口史》和《社会主义计划经济学的原理和本质》。后一本我希望其中某些关键理论符合诺贝尔奖的评奖标准，这算是我的一个小目标！&lt;/p&gt; 
+				 
+ 
+			 
+			 
+			 
+			 
+		&lt;/div&gt;
+       
+        &lt;script src=&quot;js/vendor/jquery-1.10.2.min.js&quot;&gt;&lt;/script&gt; 
+        
+        &lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+
+        &lt;!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --&gt;
+        &lt;script&gt;
+            
+			$(&quot;#en-version&quot;).click(function(){
+				document.location.href=&quot;cv.html&quot;;
+			});
+        &lt;/script&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;</content><author><name>Gary Liu</name></author><summary type="html"></summary></entry><entry><title type="html">Replicated - An Easier Path from SaaS to Enterprise</title><link href="/2015/06/19/replicated.html" rel="alternate" type="text/html" title="Replicated - An Easier Path from SaaS to Enterprise" /><published>2015-06-19T00:00:00+08:00</published><updated>2015-06-19T00:00:00+08:00</updated><id>/2015/06/19/replicated</id><content type="html" xml:base="/2015/06/19/replicated.html">&lt;h1 id=&quot;replicated---an-easier-path-from-saas-to-enterprise&quot;&gt;Replicated - An Easier Path from SaaS to Enterprise&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;19 Jun 2015 - San Francisco&lt;/p&gt;
+
+&lt;p&gt;Over the last year I’ve had a chance to learn a lot more about early stage
+funding and made angel investments in a handful of startups. So far I’ve
+restricted my involvement to companies with ideas in which I have significant
+domain knowledge. I also insist on founders with relentless product focus, a
+fierce desire to help their customers be more awesome, and excellent
+communication skills. I recently met just such a company, with just such
+founders, tackling a problem that has personally caused me much pain.&lt;/p&gt;
+
+&lt;p&gt;The company is &lt;a href=&quot;http://replicated.com&quot;&gt;Replicated&lt;/a&gt;, and founders Grant Miller
+and Marc Campbell are making it easier to roll out an on-prem Enterprise
+offering based on an existing cloud-based SaaS product.&lt;/p&gt;
+
+&lt;p&gt;At GitHub, we burned through &lt;strong&gt;a lot&lt;/strong&gt; of developer cycles building our own
+installer (several times), securing the installation environment, coding an
+automated licensing management system, integrating single sign-on services
+(LDAP, Active Directory, CAS, etc, etc), building out a searchable audit system,
+supporting customer-reviewable support bundles (logs and other diagnostic
+output), allowing numerous backup strategies, and countless other
+Enterprise-specific features that were killing our Enterprise deals. All of this
+on top of hiring and building out the necessary sales, support, and accounting
+teams to create a smooth Enterprise experience for our customers.&lt;/p&gt;
+
+&lt;p&gt;Replicated provides common Enterprise functionality (much of what I mentioned
+above, and all of it eventually) that you can wrap around your SaaS product,
+resulting in a first-class on-prem product in a fraction of the time. Beyond
+just technology, Replicated will help you understand your Enterprise customers
+through documentation on best practices and insight into the requirements and
+reasons that large companies desire the features they do. Until you can
+empathise with your customer (which is very hard to do as a fast-moving SaaS
+startup), you’ll never build the best product possible.&lt;/p&gt;
+
+&lt;p&gt;Getting into the Enterprise market will always be hard. But by reducing the
+technology burden, Replicated plans to erase much of the pain so you can focus
+on the other human-centric tasks. Not only am I an investor in Replicated, I
+believe in their mission and their founders so much that I’ve joined as an
+advisor. I understand what the uphill slog of the SaaS to Enterprise climb feels
+like, and I’m going to do my best to ensure you don’t have to suffer it as much
+as I did.&lt;/p&gt;
+
+&lt;p&gt;I’m also pleased to announce that Travis CI is now shipping their Enterprise
+product using Replicated. To see what the installation process is like, &lt;a href=&quot;https://www.youtube.com/watch?v=ViN-qkcovL0&amp;amp;feature=youtu.be&quot;&gt;watch
+Grant install Travis CI
+Enterprise&lt;/a&gt; on a
+fresh server in about seven minutes. For a deeper dive, Travis CI has also
+published a blog post covering some of their process in &lt;a href=&quot;http://blog.travis-ci.com/2015-06-19-how-we-improved-travis-ci-installation/&quot;&gt;getting their
+Enterprise installer ready using
+Replicated&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the coming weeks, you’ll start to see other well-known startups launching (or
+re-launching) Enterprise versions of their SaaS software on top of Replicated.
+If you’re looking to do the same, and want to save yourself a lot of heartache,
+email &lt;a href=&quot;mailto:contact@replicated.com&quot;&gt;contact@replicated.com&lt;/a&gt;, and start
+focusing on what matters the most: your unique and kickass product.&lt;/p&gt;</content><author><name>Gary Liu</name></author><summary type="html">Replicated - An Easier Path from SaaS to Enterprise</summary></entry><entry><title type="html">Designer, Architect, Developer</title><link href="/2010/12/11/designer-architect-developer.html" rel="alternate" type="text/html" title="Designer, Architect, Developer" /><published>2010-12-11T00:00:00+08:00</published><updated>2010-12-11T00:00:00+08:00</updated><id>/2010/12/11/designer-architect-developer</id><content type="html" xml:base="/2010/12/11/designer-architect-developer.html">&lt;h1 id=&quot;designer-architect-developer&quot;&gt;Designer, Architect, Developer&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;11 Dec 2010 - San Francisco&lt;/p&gt;
+
+&lt;p&gt;Over the last six years I’ve bootstrapped three successful enterprises (Cube6 Media, Gravatar, and GitHub) and failed to gain traction with a handful of others. After a lot of thought and reflections on these experiences, I’ve identified three major skills that should be present in order to best build a successful web application. These roles can be loosely defined as the Designer, the Architect, and the Developer.&lt;/p&gt;
+
+&lt;p&gt;In college I spent a lot of time in the campus dark room dipping rolls of film and sheets of paper into various chemical baths beneath a dim red light. The most interesting part, though, was mounting the negative into the projector and exposing the photo paper. Every time I turned on the bright light of the projector I was reminded of a saying that has stuck with me ever since: “A photograph is nothing more than an image created by light.” Think about that for a second. The only way the photograph, and hence, the viewer, interact with the original subject is via the light that was captured. None of the fancy flashes, soft boxes, bounces, umbrellas, or backdrops mean a thing if the light they produce or redirect is in the wrong place. If the light is bad, the photograph is bad.&lt;/p&gt;
+
+&lt;p&gt;I think the same concept holds true for web applications. Adapting the saying for our own situation, I would say: “A web application is nothing more than an experience created by design.” Users can’t see what technology you use or whether you follow an agile development process or not. All they experience is what’s on the screen. It can’t be confusing, it can’t look amateur, and it can’t have spelling errors. If the UX is bad, the web application is bad. It’s that simple.&lt;/p&gt;
+
+&lt;p&gt;The way you get good UX is by having a good designer. Someone on the team must be skilled not only in making things pretty, but in making them usable as well. Without a good UX/visual design, you may as well not even bother. It’s impossible to stress how important this is.&lt;/p&gt;
+
+&lt;p&gt;Design comes first. It defines what you will build. Once you have an idea of what you’re creating, you need to figure out how to make it happen. That’s where the Architect comes in.&lt;/p&gt;
+
+&lt;p&gt;With the recent explosion of open source solutions to common problems like databases, web frameworks, job processors, messaging systems, etc, you need a team member that has a broad understanding of the technology landscape. The choices you make early on will impact your company for many years, and the wrong choices can spell disaster. The role of the Architect is to choose the best tools for the job, and to decide when new tools need to be created.&lt;/p&gt;
+
+&lt;p&gt;The Architect must also be ready to scale any piece of the site when you start attracting users. There’s a fine line between premature optimization and crumbling under the wave of thousands of new signups. A good architect will always be one step ahead of the curve, laying the groundwork for future scaling needs just before they are needed.&lt;/p&gt;
+
+&lt;p&gt;Design and architecture dictate what you build and how you build it, but without someone to do the construction, you’re dead in the water. The role of the Developer is to turn the wishes of the Designer into reality while staying within the constraints that the Architect has put forth. In addition, the Developer has to ensure that the codebase remains healthy and protect against technical debt. Sloppy development up front means a huge amount of wasted effort later on.&lt;/p&gt;
+
+&lt;p&gt;The three roles of the Designer, the Architect, and the Developer may reside in a single person, but it’s much more common to see groups of two or three people satisfy all these skills. In fact, the best founding teams are those where everyone fills some combination of roles. This fosters an environment of friendly argument that leads to better decisions.&lt;/p&gt;
+
+&lt;p&gt;But whatever you do, make sure your team fills all of these roles. Once you do, executing on your idea should come easily!&lt;/p&gt;</content><author><name>Gary Liu</name></author><summary type="html">Designer, Architect, Developer</summary></entry><entry><title type="html">Optimize for Happiness</title><link href="/2010/10/18/optimize-for-happiness.html" rel="alternate" type="text/html" title="Optimize for Happiness" /><published>2010-10-18T00:00:00+08:00</published><updated>2010-10-18T00:00:00+08:00</updated><id>/2010/10/18/optimize-for-happiness</id><content type="html" xml:base="/2010/10/18/optimize-for-happiness.html">&lt;h1 id=&quot;optimize-for-happiness&quot;&gt;Optimize for Happiness&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;18 October 2010 - San Francisco&lt;/p&gt;
+
+&lt;p&gt;Two days ago I had the pleasure of speaking at Startup School, a yearly conference on entrepreneurism put on by the great folks at Y Combinator. Never before have I see such a high concentration of smart ambitious people in one place.&lt;/p&gt;
+
+&lt;p&gt;You can watch the recording of my thirty minute slot on Youtube:&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T4VtBcmbbSs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Since I only had about 25 minutes for the talk and 5 minutes for questions, I wanted to expand upon and clarify some of the ideas I introduced during the talk and then make myself available for additional questions. So today (Monday, 18 October 2010) I’ll be answering any questions you have via Hacker News:&lt;/p&gt;
+
+&lt;center&gt;&lt;b&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=1804443&quot;&gt;Ask me a question on HN!&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+
+&lt;p&gt;The very first commit to GitHub was made exactly three years ago tomorrow. In that time our team of thirteen has signed up over 420,000 developers and now hosts 1.3 million Git repositories, making us the largest code host on the planet. And we’ve done all of this without ever taking a dime of funding from outside the company. In fact, even within the company we only invested a few thousand dollars out of our own pockets during the first months to cover legal fees.&lt;/p&gt;
+
+&lt;p&gt;During the presentation I talk about a choice between optimizing for happiness and optimizing for money. When I say “optimizing for money” I mean following the traditional venture capital route of raising a ton of money to stash in your bank account and going for a huge exit. The unfortunate reality of this approach is that for aspiring entrepreneurs that are not well connected to the VC world, it can take an extraordinary amount of time and effort to raise that money. Even if you are able to raise capital, you are suddenly responsible to your investors and will need to align your interests with theirs.&lt;/p&gt;
+
+&lt;p&gt;In a world dominated by news about Facebook, Apple, Google, YouTube, Zappos, and other companies heavily funded by venture capital, it’s easy to forget that you can still build a highly profitable business with significant impact on a global market without having to first spend three months on Sand Hill Road asking for permission to build your product.&lt;/p&gt;
+
+&lt;p&gt;The infrastructure components necessary to run an internet business are finally cheap enough that you can get started without a huge up-front investment. In the months that you would traditionally spend in glass-walled conference rooms you can now build a sophisticated prototype of your product and start getting users signed up and engaging you with useful feedback.&lt;/p&gt;
+
+&lt;p&gt;This is what I mean by optimizing for happiness: I’m a hacker; I’m happy when I’m building things of value, not when I’m writing a business plan filled with make believe numbers.&lt;/p&gt;
+
+&lt;p&gt;When Chris and I started GitHub, I was working full time at Powerset and Chris was doing consulting work and plugging away on a product of his own. GitHub became the leisure activity that I worked on when I got home from the office. I could craft it however I pleased, and there was nobody telling me what to do. This feeling of control and ownership of something you own is intoxicating.&lt;/p&gt;
+
+&lt;p&gt;Within three months we had a simple product and moved into private beta. In six months we launched to the public and started charging for private plans. We’ve been profitable every month since public launch except for one (in which we hired two new employees at once). We did this by making a paycheck via other means until GitHub was generating enough revenue to support us full time at about 2/3 of what we were accustomed to making. We then raised our salaries over the next months when we hit specific revenue goals that allowed us to remain profitable. This happened about one year after inception.&lt;/p&gt;
+
+&lt;p&gt;A side effect of bootstrapping a sustainable company is what I like to call &lt;b&gt;infinite runway.&lt;/b&gt; This is another element of optimizing for happiness. With venture backed endeavors you generally find that during the first several years the numbers in your bank account are perpetually decreasing, giving your company an expiration date. Your VCs have encouraged you to grow fast and spend hard, which makes perfect sense for them, but not necessary for you. Not if you’re trying to optimize for happiness.&lt;/p&gt;
+
+&lt;p&gt;VCs want to see quick success or quick failure. They are optimizing for money. There’s nothing wrong with that as long as you want the same things they do. But if you’re like me, then you care more about building a kickass product than you do about having a ten figure exit. If that’s true, then maybe you should be optimizing for happiness. One way to do this is by bootstrapping a sustainable business with infinite runway. When there are fewer potentially catastrophic events on the horizon, you’ll find yourself smiling a lot more often.&lt;/p&gt;
+
+&lt;p&gt;The ironic thing about bootstrapping and venture capital is that once you demonstrate some success, investors will come to YOU. When this happens you will be in a much better place to make a more reasoned choice about taking on additional capital and all the complexities that come with it. Talking to VCs with some leverage in your back pocket is an entirely different game from throwing yourself in front of a conference table full of general partners and trying to persuade them that you’re worth their time and money. Power is happiness.&lt;/p&gt;
+
+&lt;p&gt;There are other really great things you can do when you optimize for happiness. You can throw away things like financial projections, hard deadlines, ineffective executives that make investors feel safe, and everything that hinders your employees from building amazing products.&lt;/p&gt;
+
+&lt;p&gt;At GitHub we don’t have meetings. We don’t have set work hours or even work days. We don’t keep track of vacation or sick days. We don’t have managers or an org chart. We don’t have a dress code. We don’t have expense account audits or an HR department.&lt;/p&gt;
+
+&lt;p&gt;We pay our employees well and give them the tools they need to do their jobs as efficiently as possible. We let them decide what they want to work on and what features are best for the customers. We pay for them to attend any conference at which they’ve gotten a speaking slot. If it’s in a foreign country, we pay for another employee to accompany them because traveling alone sucks. We show them the profit and loss statements every month. We expect them to be responsible.&lt;/p&gt;
+
+&lt;p&gt;We make decisions based on the merits of the arguments, not on who is making them. We strive every day to be better than we were the day before.&lt;/p&gt;
+
+&lt;p&gt;We hold our board meetings in bars.&lt;/p&gt;
+
+&lt;p&gt;We do all this because we’re optimizing for happiness, and because there’s nobody to tell us that we can’t.&lt;/p&gt;
+
+&lt;center&gt;&lt;b&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=1804443&quot;&gt;Ask me a question on HN!&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;</content><author><name>Gary Liu</name></author><summary type="html">Optimize for Happiness</summary></entry><entry><title type="html">Readme Driven Development</title><link href="/economic/2010/08/23/readme-driven-development.html" rel="alternate" type="text/html" title="Readme Driven Development" /><published>2010-08-23T00:00:00+08:00</published><updated>2010-08-23T00:00:00+08:00</updated><id>/economic/2010/08/23/readme-driven-development</id><content type="html" xml:base="/economic/2010/08/23/readme-driven-development.html">&lt;p&gt;category: economic&lt;/p&gt;
+
+&lt;h1 id=&quot;readme-driven-development&quot;&gt;Readme Driven Development&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;23 August 2010 - San Francisco&lt;/p&gt;
+
+&lt;p&gt;I hear a lot of talk these days about TDD and BDD and Extreme Programming and SCRUM and stand up meetings and all kinds of methodologies and techniques for developing better software, but it’s all irrelevant unless the software we’re building meets the needs of those that are using it. Let me put that another way. A perfect implementation of the wrong specification is worthless. By the same principle a beautifully crafted library with no documentation is also damn near worthless. If your software solves the wrong problem or nobody can figure out how to use it, there’s something very bad going on.&lt;/p&gt;
+
+&lt;p&gt;Fine. So how do we solve this problem? It’s easier than you think, and it’s important enough to warrant its very own paragraph.&lt;/p&gt;
+
+&lt;p&gt;Write your Readme first.&lt;/p&gt;
+
+&lt;p&gt;First. As in, before you write any code or tests or behaviors or stories or ANYTHING. I know, I know, we’re programmers, dammit, not tech writers! But that’s where you’re wrong. Writing a Readme is absolutely essential to writing good software. Until you’ve written about your software, you have no idea what you’ll be coding. Between The Great Backlash Against Waterfall Design and The Supreme Acceptance of Agile Development, something was lost. Don’t get me wrong, waterfall design takes things way too far. Huge systems specified in minute detail end up being the WRONG systems specified in minute detail. We were right to strike it down. But what took its place is too far in the other direction. Now we have projects with short, badly written, or entirely missing documentation. Some projects don’t even have a Readme!&lt;/p&gt;
+
+&lt;p&gt;This is not acceptable. There must be some middle ground between reams of technical specifications and no specifications at all. And in fact there is. That middle ground is the humble Readme.&lt;/p&gt;
+
+&lt;p&gt;It’s important to distinguish Readme Driven Development from Documentation Driven Development. RDD could be considered a subset or limited version of DDD. By restricting your design documentation to a single file that is intended to be read as an introduction to your software, RDD keeps you safe from DDD-turned-waterfall syndrome by punishing you for lengthy or overprecise specification. At the same time, it rewards you for keeping libraries small and modularized. These simple reinforcements go a long way towards driving your project in the right direction without a lot of process to ensure you do the right thing.&lt;/p&gt;
+
+&lt;p&gt;By writing your Readme first you give yourself some pretty significant advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Most importantly, you’re giving yourself a chance to think through the project without the overhead of having to change code every time you change your mind about how something should be organized or what should be included in the Public API. Remember that feeling when you first started writing automated code tests and realized that you caught all kinds of errors that would have otherwise snuck into your codebase? That’s the exact same feeling you’ll have if you write the Readme for your project before you write the actual code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As a byproduct of writing a Readme in order to know what you need to implement, you’ll have a very nice piece of documentation sitting in front of you. You’ll also find that it’s much easier to write this document at the beginning of the project when your excitement and motivation are at their highest. Retroactively writing a Readme is an absolute drag, and you’re sure to miss all kinds of important details when you do so.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you’re working with a team of developers you get even more mileage out of your Readme. If everyone else on the team has access to this information before you’ve completed the project, then they can confidently start work on other projects that will interface with your code. Without any sort of defined interface, you have to code in serial or face reimplementing large portions of code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It’s a lot simpler to have a discussion based on something written down. It’s easy to talk endlessly and in circles about a problem if nothing is ever put to text. The simple act of writing down a proposed solution means everyone has a concrete idea that can be argued about and iterated upon.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Consider the process of writing the Readme for your project as the true act of creation. This is where all your brilliant ideas should be expressed. This document should stand on its own as a testament to your creativity and expressiveness. The Readme should be the single most important document in your codebase; writing it first is the proper thing to do.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=1627246&quot;&gt;Discuss this post on Hacker News&lt;/a&gt;&lt;/p&gt;</content><author><name>Gary Liu</name></author><category term="economic" /><summary type="html">category: economic</summary></entry></feed>
