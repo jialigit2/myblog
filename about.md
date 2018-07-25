@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 个人简介
+title: 关于我
 
 ---
 
@@ -11,21 +11,13 @@ title: 个人简介
 现单身，无党派民主人士。
 
 现为web工程师，居住于西安。
+
  
 精通Java,Scala,Python,Javascript 等编程语言。目前主要钻研大数据，机器学习等相关技术。
-##### 比较熟悉的技术包括：
 
-- Spring Web 框架（含Spring Boot,Spring Cloud)
-- Django Web 框架
-- Jquery,Bootstrap,Angular...
-- Ngnix
-- Git,Maven...
-- Mysql,Redis...
-- 企业架构
-- 其他
 
-如果您对我感兴趣，欢迎联系我。下面是我的详细简历：
+如果您对我感兴趣，欢迎联系我。
 
-[简历][resume]
+看我简历，**[请点击我][resume]**
 
-[resume]: {{baseurl}}/resume.html
+[resume]: {{'resume.html' | relative_url}}
