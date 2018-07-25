@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 简历
+title: 
 
 ---
 
-<center> **简历**：</center>
+<center> **简历**</center>
 
 > 基本信息
 
