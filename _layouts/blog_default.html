@@ -9,32 +9,35 @@
     <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- syntax highlighting CSS -->
+    <!--
     <link rel="stylesheet" href="{{'/css/syntax.css'|relative_url}}" type="text/css" />
-    <!-- Homepage CSS -->
+    
     <link rel="stylesheet" href="{{'/css/screen.css'|relative_url}}" type="text/css" media="screen, projection" />
+     -->
     <link rel="stylesheet" href="{{'/css/main.css'|relative_url}}">
+   
     <link rel="stylesheet" href="{{'/css/blog.css'|relative_url}}">
+
     <!-- Typekit -->
     <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
      <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
   <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
   <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="site">
-        <div class="title">
-            <a href="{{'/'|relative_url}}">刘嘉立</a>
-            <a class="extra" href="{{'blog.html'|relative_url}}">日志首页</a>
-            <a class="extra" href="{{'album.html'|relative_url}}">我的相册</a>
-        </div>
-        <div class="container">
+     
+
+        {% include header_blog.html %}
+        <main rule="main" class="container">
              {{ content }}
-        </div>
-        {% include footer.html %}
-    </div>
-    <a href="http://github.com/jialigit"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+        </main>
+        {% include footer_blog.html %}
+        <!--
+    <a href="http://github.com/jialigit"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>-->
 </body>
 
 </html>
