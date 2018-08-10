@@ -19,9 +19,15 @@ title:
 - 熟悉git, maven 项目，代码管理工具
 
 **全栈能力**：
-- html5,css3,精通各种主流前端框架包括 Angular,熟悉ES6
-- java,scala, javascript,python
-- 代码优化 整洁代码
+- html5,css3,精通各种主流前端框架包括 Angular,ECMAScript6
+- Java,Scala, Javascript,Node,python,R,Ruby多种编程语言
+- Mysql,Sqlite,Redis,Elasticseasrch,Cassandra,Memcached,mongodb多种数据库
+- Spring MVC,Django,mybatis
+- Hadoop,Spark,Storm,RabbitMQ,ZooKeeper
+- Linux,Nginx,Shell,Spring Boot,Spring Cloud，Docker
+- 设计模式，AOP
+- 统计学知识，机器学习
+- 高并发 高可用 
 
 **数据分析能力**：
 - 爬虫
@@ -64,6 +70,12 @@ title:
 1. **这里是西安站长(2018)**  
 简介：  
     [www.thisisxizn.cn](www.thisisxian.cn)
+
+    **网络分析解决方案**：  
+    - node web 提供网络服务
+    - Redis服务器提供持久化
+    - Storm 拓扑实时处理数据
+
 
  2. **某大型电信后台故障诊断系统(2016.9-2018.6)**  
 简介：  
