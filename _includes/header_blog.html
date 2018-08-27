@@ -1,6 +1,6 @@
  
- <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-   <div class="container">
+ <nav class="navbar navbar-expand-md navbar-light fixed-top">
+   <div class="container nav-inner">
     <a class="navbar-brand"   href="{{'/'|relative_url}}" >首页</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -8,19 +8,40 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link color-black" href="{{'blog.html'|relative_url}}">日志</a>
+          <a class="nav-link color-black menu" href="{{'blog.html'|relative_url}}">日志</a>
         </li>
+        <!--
         <li class="nav-item">
-          <a class="nav-link color-black" href="{{'album.html'|relative_url}}">相册</a>
+          <a class="nav-link color-black menu" href="{{'album.html'|relative_url}}">相册</a>
         </li>
+      -->
         <li class="nav-item">
-          <a class="nav-link color-black" href="{{'about.html'|relative_url}}">关于我</a>
+          <a class="nav-link color-black menu" href="{{'about.html'|relative_url}}">关于我</a>
         </li>
  
       </ul>
-      <form class="form-inline my-2 my-md-0">
-        <input class="form-control" type="text" placeholder="Search">
-      </form>
+      <div class="socials">
+        <ul>
+                    <li>
+                        <a href="https://www.twitter.com/{{ site.twitter_username|      cgi_escape   | escape }}" title="twitter">                        <i class="fa fa-twitter"></i>  
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.github.com/{{ site.github_username|      cgi_escape   | escape }}"><i class="fa fa-github-alt" title="github"></i>   
+                        </a>
+                    </li>
+                   <li>
+                    <a href="../icon/code" title="the code of this site"><i class="fa fa-code" aria-hidden="true"></i> <span class="sr-only"></span></a>
+                  </li>
+                  <li>
+                    <a href="../icon/instagram" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i> <span class="sr-only"></span></a>
+                  </li>
+                  <li>
+                    <a href="../icon/pinterest" title="pinerest"><i class="fa fa-pinterest" aria-hidden="true"></i> <span class="sr-only"></span></a>
+                  </li>
+                </ul>
+      </div>
     </div>
  </div>
 </nav>

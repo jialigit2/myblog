@@ -1,9 +1,56 @@
+body{
+  border-top: 4px solid #556270;
+   
+  background: #f7f7fa;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1.0);
+  color: #333;
+}
+
+.navbar a:hover{
+  border-bottom:red solid 1px;
+}
+.navbar-brand{
+  font-family: "康熙字典体","Source Han Sans" !important;
+  font-size:30px !important;
+}
 main{
-	margin-top:75px;
+	margin-top:100px;
+  line-height:24px;
+}
+.posts li{
+  list-style-type: none;
+  margin-bottom:10px;
+}
+.posts .title-wrapper a{
+  border-left: 5px solid #d6c2c2;
+  padding-left: 10px;
+}
+.date_str{
+  font-size:12px;
+  font-style: italic;
+}
+.menu{
+  font-weight:600;
+}
+
+.navbar{
+  padding-top:0 !important;
+}
+.nav-inner{
+  height:90px;
+  z-index:1;
+  border-bottom: 1px solid #fff;
+  background-color: #fff;
+}
+
+.nav-link{
+  font-size:25px;
+font-family: "Source Han Sans";
 }
 #category{
+  height:226px;
   //background-color: #d4edda;
-  //border:solid #007bff 2px;
+  border:solid black 1px;
   border-radius: 25px;
   padding-top:20px;
 }
@@ -26,4 +73,20 @@ main{
 }
 .footer-inner-wrapper{
 	padding-top:20px;
+  padding-bottom:20px;
 }
+
+
+
+.socials ul li{
+  margin-left:15px;
+  list-style-type:none;
+  float:left;
+}
+
+
+.socials ul li i{
+  font-size:20px;
+  color:red;
+}
+
