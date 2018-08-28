@@ -1,6 +1,6 @@
 ---
 layout: blog  
-title:  
+title:  使用Jekyll 搭建你的个人站点
 category:  IT
 ---
 ### 使用Jekyll 搭建你的第一个 ***个人站点***
