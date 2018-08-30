@@ -35,6 +35,10 @@ category:  IT
 	3.提交 git add .  ; git commit
 
 
+更多请看[stackoverflow][stackoverflow_question]上的讨论。
+
+[stackoverflow_question]:https://stackoverflow.com/questions/7527982/applying-gitignore-to-committed-files
+
 4.怎么清理库中未跟踪的文件？
 
 	git clean 命令
