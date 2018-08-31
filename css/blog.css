@@ -42,10 +42,17 @@ main{
 .navbar{
   padding-top:0 !important;
 }
+
+.navbar-wrapper{
+  border-top: 4px solid #556270;
+  background-color: #fff;
+}
 .nav-inner{
-  height:90px;
+  #height:90px;
+  position: relative;
+  top: 4px;
   z-index:1;
-  border-bottom: 1px solid #fff;
+   
   background-color: #fff;
 }
 
@@ -96,3 +103,15 @@ font-family: "Source Han Sans";
   color:red;
 }
 
+.tag{
+  border-radius:3px;
+  font-size:8px;
+  line-height: 10px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:2px;
+  padding-bottom:2px;
+  color: #fff;
+  background-color: #17a2b8;
+
+}

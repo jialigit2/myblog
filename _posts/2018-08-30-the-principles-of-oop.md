@@ -1,7 +1,8 @@
 ---
 layout: blog  
 title:  The Principles Of OOP
-category:  IT
+categories:  IT OOP
+date: 2018-08-31
 ---
 <br/>
 

@@ -1,7 +1,7 @@
 ---
 layout: blog  
 title:  git diff 命令的基本用法
-category:  IT
+categories: Git IT
 ---
 ### git diff 命令的基本用法
 

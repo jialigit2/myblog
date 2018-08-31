@@ -12,8 +12,12 @@ title: 嘉立的网络日志
 
                      <div class="title-wrapper clear-fix">
                         <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
-                    
-                        <span class="date_str clear-fix">{{ post.date | date_to_string }}</span>
+                        <span>
+                                    {% for category in post.categories %}
+                                    <i class="tag">{{category}}</i>
+                                    {% endfor %}
+                        </span>
+                        <span class="date_str clear-fix">{{ post.date | date: "%Y年%m月%d日" }}</span>
                      </div>
                      
 
