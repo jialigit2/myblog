@@ -3,6 +3,7 @@ layout: blog
 title:  The Principles Of OOP
 categories:  IT OOP
 date: 2018-08-31
+author: Liu jiali
 ---
 <br/>
 
