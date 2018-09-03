@@ -16,7 +16,7 @@ layout: blog_default
       <li>
 
       	<div> 
-      		<a href="{{ post.url  | relative_url }}">{{ post.title }}</a>
+      		<a href="{{ post.url  | relative_url }}#disqus_thread">{{ post.title }}</a>
           <span class="date_str">{{ post.date | date_to_string }}</span> 
       	</div>
       </li>
@@ -44,4 +44,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<script id="dsq-count-scr" src="//thisisxian.disqus.com/count.js" async></script>
