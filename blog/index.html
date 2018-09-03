@@ -4,7 +4,12 @@ title: 嘉立的网络日志
 ---
  
   <p>
-<center><i>路难行，才欣然前行。</i> -- 刘佳利</center>
+<center id="quote_wrapper">
+  <img id="author_link" src="" style="width:50px;height:50px;border-radius:30px;"/>
+
+  <i id="quote">路难行，才欣然前行。</i> 
+  <span>--</span>
+  <i id="author">刘佳利</i></center>
   </p>
             <ul class="posts">
                 {% for post in paginator.posts %}
@@ -45,5 +50,41 @@ title: 嘉立的网络日志
     <span class="next ">下一页</span>
   {% endif %}
 </div>
+
+<script>
+  $(function(){
+     
+     function get_quote_obj(){
+        var quotes =[
+            {
+              quote_text:"Don't cry because it's over, smile because it happened.",
+              author:"Dr. Seuss",
+              link:"/img/61105.jpg"
+            },
+            {
+              quote_text:"Be yourself; everyone else is already taken.",
+              author:"Oscar Wilde",
+              link:"/img/3565.jpg"
+            },
+            {
+              quote_text:"路难行，才欣然前行。",
+              author:"Liu Jaili",
+              link:"/img/me/me.jpeg"
+            },
+        ]
+        var size = quotes.length;
+        var choose = Math.ceil(Math.random() * (size-1));
+
+         return quotes[choose];
+
+
+     }
+    var quote_obj = get_quote_obj();
+
+    $("#quote_wrapper>#quote").text(quote_obj.quote_text);
+    $("#quote_wrapper>#author").text(quote_obj.author);
+    $("#quote_wrapper>#author_link").attr("src",quote_obj.link);
+  })
+  </script>
  
  
