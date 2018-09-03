@@ -1,7 +1,7 @@
 ---
 layout: blog  
 title:  git 常见问题解决办法总结
-categories: Git IT
+tags: Git IT
 ---
 <br/>
 > 更多关于 Git 的问题，请参考>> [Git 问答][Git-queestions&Answer]

@@ -1,7 +1,7 @@
 ---
 layout: blog  
 title:  Java 内存模型问答（一）
-categories: Java IT
+tags: Java IT
 ---
 <br/>
 > 更多关于 Java 内存模型 的问题，请参考>> 

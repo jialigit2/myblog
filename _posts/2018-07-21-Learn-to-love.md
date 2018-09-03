@@ -1,7 +1,7 @@
 ---
 layout: blog  
 title:  
-category:  poems
+tags:  poems
 ---
 
 

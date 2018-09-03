@@ -2,7 +2,7 @@ body{
   border-top: 4px solid #556270;
    
   background: #f7f7fa;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 1.0);
+  #text-shadow: 0 1px 0 rgba(255, 255, 255, 1.0);
   color: #333;
 }
 
@@ -27,11 +27,15 @@ main{
   list-style-type: none;
   margin-bottom:10px;
 }
-.posts .title-wrapper a{
+ .title-wrapper{
   border-left: 5px solid #d6c2c2;
-  padding-left: 10px;
+ }
+.posts .title-wrapper a{
+  #border-left: 5px solid #d6c2c2;
+  padding-left: 5px;
 }
 .date_str{
+  margin-left:5px;
   font-size:12px;
   font-style: italic;
 }
