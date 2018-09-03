@@ -2,7 +2,8 @@
 layout: blog_default
 ---
 
-<div id="post" class="col-8">
+<div id="post" class="col-8 offset-2">
+<h3>{{page.title}}</h3>
 <span class="date_str_middle class="post-meta"">发表日期：{{ page.date | date: "%Y年%m月%d日" }}</span>
 
 <span class="post-meta"> 作者:
@@ -16,7 +17,7 @@ layout: blog_default
 {{ content }}
 </div>
 
-<div id="related">
+<div id="related" class="col-8 offset-2">
   <h5>推荐阅读：</h5>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}

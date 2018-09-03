@@ -4,7 +4,7 @@ title: 嘉立的网络日志
 ---
  
     <div class="row">
-        <div id="home" class="col-md-8">
+        <div id="home" class="col-8 offset-2">
              
             <ul class="posts">
                 {% for post in site.posts %}
@@ -27,28 +27,17 @@ title: 嘉立的网络日志
                 {% endfor %}
             </ul>
         </div>
+        <!--
         <div id="category" class="col-md-4">
             <h5>标签</h5>
             <ul>
-                <li>
-                    <span><a href="category/economic.html">经济</a>({{site.categories['economic']| size}})</span>
-                </li>
-                <li>
-                    <span><a href="category/IT.html">IT</a>({{site.categories['IT']| size}})</span>
-                </li>
-                <li>
-                    <span><a href="category/perspective.html">观察</a>({{site.categories['perspective']| size}})</span>
-                </li>                
-                <li>
-                    <span><a href="category/poems.html">诗歌</a>({{site.categories['poems']| size}})</span>
-                </li>
-                <li>
-                    <span><a href="category/游记.html">游记</a>({{site.categories['游记']| size}})</span>
-                </li>
-                <li>
-                    <span><a href="category/国学经典.html">国学经典</a>({{site.categories['国学经典']| size}})</span>
-                </li>
+                 {% for tag in site.tags %}
+                        <li>{{ tag[0] }}</li>
+
+                 {% endfor %}
+
             </ul>
         </div>
+    -->
     </div>
  
