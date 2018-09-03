@@ -1,5 +1,5 @@
 ---
-layout: blog_default
+layout: test
 title: 关于我
 
 ---

@@ -5,12 +5,18 @@ tags: Jekyll IT
 ---
 ### 使用Jekyll 搭建你的第一个 ***个人站点***
 
-![](/img/blog/jekyll-logo.png)
+<center >
+	<img src="/img/blog/jekyll-logo.png" width="80%"/>
+</center>
 #### Why?
  1. 简单
  - 如果你有一个github账号，那么直接创建一个新的仓库。
- - 去 Settings设置--》Pages 设置站点的分支，域名等即可。
- ![](/img/blog/github-pages-settings.png)
+ - 去 Settings设置--》Pages 
+ <center>
+ 	<img src="/img/blog/github-pages-settings.png" width="80%"/>
+ 	
+	
+</center>
  2. 灵活
  - Jekyll 有丰富的插件，主题，使得您只需要关注内容，从而省去了
  调整样式的烦恼。
