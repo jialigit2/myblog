@@ -51,10 +51,11 @@ title: 嘉立的网络日志
   {% endif %}
 </div>
 
+
 <script>
-  $(function(){
+ 
      
-     function get_quote_obj(){
+      /**
         var quotes =[
             {
               quote_text:"Don't cry because it's over, smile because it happened.",
@@ -71,20 +72,44 @@ title: 嘉立的网络日志
               author:"Liu Jaili",
               link:"/img/me/me.jpeg"
             },
-        ]
-        var size = quotes.length;
-        var choose = Math.ceil(Math.random() * (size-1));
+        ];
 
-         return quotes[choose];
+**/
+
+$(function(){
+
+var quotes = [];
+  {% for quote in site.data.quotes %}
+     var q = {
+            quote_text:"{{quote.quote_text}}",
+            author:"{{quote.author}}",
+            link:"{{quote.link}}"
+            }
+     quotes.push(q);
+{% endfor %}
+
+console.log(quotes)
+
+ 
+   var size = quotes.length;
+  var choose = Math.ceil(Math.random() * (size-1));
 
 
-     }
-    var quote_obj = get_quote_obj();
+  var quote_obj = quotes[choose];
 
-    $("#quote_wrapper>#quote").text(quote_obj.quote_text);
-    $("#quote_wrapper>#author").text(quote_obj.author);
-    $("#quote_wrapper>#author_link").attr("src",quote_obj.link);
-  })
+  $("#quote_wrapper>#quote").text(quote_obj.quote_text);
+  $("#quote_wrapper>#author").text(quote_obj.author);
+  $("#quote_wrapper>#author_link").attr("src",quote_obj.link);
+
+
+})
+ 
+
+  
+
+     
+  
+
   </script>
  
  
