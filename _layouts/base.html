@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 <title>嘉立的网络日志</title>
-      <style type="text/css">
-      .socials ul li{
+<style type="text/css">
+.socials ul li{
   margin-left:15px;
   list-style-type:none;
   float:left;
@@ -32,7 +32,8 @@
   background-color: #fff;
 }
 main{
-  margin-top:60px;
+  min-height:310px;
+  #margin-top:60px;
   line-height:24px;
 }
  .title-wrapper{
@@ -90,6 +91,10 @@ main{
   padding-top:20px;
   padding-bottom:20px;
 }
+
+.nav-inner{
+  background-color: whitesmoke;
+}
     </style>
        <script src="https://code.jquery.com/jquery-3.3.1.min.js"   crossorigin="anonymous"></script>
   </head>
@@ -98,17 +103,9 @@ main{
         {% include header_blog.html %}
         <!--    <img src="/img/index_themes/bg.jpg" style="height:250px;width:100%"/>-->
 
- <canvas id="c"></canvas>
-<div class="info">点击添加重力点.</div>
 
-        <main rule="main" class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-8 offset-md-2">
              {{ content }}
-           </div>
-         </div>
-        </main>
-
+       
     {% include footer_blog.html %}
      
     <!-- Optional JavaScript -->

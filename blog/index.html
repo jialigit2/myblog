@@ -1,60 +1,56 @@
 --- 
-layout: test
-title: 嘉立的网络日志
+layout: base 
+title: 嘉立的网络日志 
 ---
 
-  <p>
-<center id="quote_wrapper">
-  <img id="author_link" src="" style="width:50px;height:50px;border-radius:30px;"/>
-
-  <i id="quote">路难行，才欣然前行。</i> 
-  <span>--</span>
-  <i id="author">刘佳利</i></center>
-  </p>
+<main rule="main" >
+  
+<canvas id="c"></canvas>
+<div class="info">点击添加重力点.</div>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 offset-md-2">
+            <p>
+                <center id="quote_wrapper">
+                    <img id="author_link" src="" style="width:50px;height:50px;border-radius:30px;" />
+                    <i id="quote">路难行，才欣然前行。</i>
+                    <span>--</span>
+                    <i id="author">刘佳利</i></center>
+            </p>
             <ul class="posts">
                 {% for post in paginator.posts %}
                 <li>
-
-                     <div class="title-wrapper clear-fix">
-                        <span class="date_str clear-fix">{{ post.date | date: "%Y年%m月%d日" }}</span>
-                        >>
+                    <div class="title-wrapper clear-fix">
+                        <span class="date_str clear-fix">{{ post.date | date: "%Y年%m月%d日" }}</span> >>
                         <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
-                         <span>
+                        <span>
                                     {% for tag in post.tags %}
                                     <i class="tag">{{tag}}</i>
                                     {% endfor %}
                         </span>
-
-                     </div>
-                     
-
-                 </li>
+                    </div>
+                </li>
                 {% endfor %}
             </ul>
-
             <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
+            <div class="pagination">
+                {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">
       前一页
-    </a>
-  {% else %}
-    <span class="previous">前一页</span>
-  {% endif %}
-  <span class="page_number ">
+    </a> {% else %}
+                <span class="previous">前一页</span> {% endif %}
+                <span class="page_number ">
     当前页: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">下一页</a>
-  {% else %}
-    <span class="next ">下一页</span>
-  {% endif %}
-</div>
-
+  </span> {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">下一页</a> {% else %}
+                <span class="next ">下一页</span> {% endif %}
+            </div>
+        </div>
+    </div>
+  </div>
+</main>
 <script>
- 
-     
-      /**
+/**
         var quotes =[
             {
               quote_text:"Don't cry because it's over, smile because it happened.",
@@ -75,40 +71,35 @@ title: 嘉立的网络日志
 
 **/
 
-$(function(){
+$(function() {
 
-var quotes = [];
-  {% for quote in site.data.quotes %}
-     var q = {
-            quote_text:"{{quote.quote_text}}",
-            author:"{{quote.author}}",
-            link:"{{quote.link}}"
-            }
-     quotes.push(q);
-{% endfor %}
+    var quotes = []; 
+    {% for quote in site.data.quotes %}
+      var q = {
+          quote_text: "{{quote.quote_text}}",
+          author: "{{quote.author}}",
+          link: "{{quote.link}}"
+      };
 
-console.log(quotes)
+      quotes.push(q); 
+    {% endfor %}
 
- 
-   var size = quotes.length;
-  var choose = Math.ceil(Math.random() * (size-1));
+    console.log(quotes)
 
 
-  var quote_obj = quotes[choose];
+    var size = quotes.length;
+    var choose = Math.ceil(Math.random() * (size - 1));
 
-  $("#quote_wrapper>#quote").text(quote_obj.quote_text);
-  $("#quote_wrapper>#author").text(quote_obj.author);
-  $("#quote_wrapper>#author_link").attr("src",quote_obj.link);
+
+    var quote_obj = quotes[choose];
+
+    $("#quote_wrapper>#quote").text(quote_obj.quote_text);
+    $("#quote_wrapper>#author").text(quote_obj.author);
+    $("#quote_wrapper>#author_link").attr("src", quote_obj.link);
 
 
 })
-   
-  
-
-  </script>
-  <link rel="stylesheet" type="text/css" href="/css/gravity.css">
-   <script type="text/javascript" src="/js/dat.gui.js"></script>
-
-  <script type="text/javascript" src="/js/gravity.js"></script>
- 
- 
+</script>
+<link rel="stylesheet" type="text/css" href="/css/gravity.css">
+<script type="text/javascript" src="/js/dat.gui.js"></script>
+<script type="text/javascript" src="/js/gravity.js"></script>

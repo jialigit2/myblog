@@ -1,13 +1,41 @@
+--- 
+layout: base 
 ---
-layout: blog_default
----
- <ul class="posts">
-{% for post in site.categories[page.category] %}
-   <li><span>{{ post.date | date_to_string }}</span> &raquo; 
-	    <a href="{{ post.url | absolute_url }}">
-	      {{ post.title }}
-	    </a>
-	</li>
-{% endfor %}
-</ul>
+
+<main rule="main" >
+  <div style="height:100px;"></div>
+	<div class="container">
+	    <div class="row">
+	        <div class="col-xs-12 col-md-8 offset-md-2">
  
+	            <h3>我收集的站点</h3>
+            	<ul>
+            		<li>
+            			<a href="https://jupyter.org/try">Jupyter Notebook</a>
+            		</li>
+            		<li>
+            			<a href="http://www.scipy-lectures.org" >Scipy Lecture Notes</a>
+            			
+            			<a href="https://github.com/jayleicn/scipy-lecture-notes-zh-CN">(中文版)</a>
+            		</li>
+
+            		<li>
+            			<a href="http://www.equality-of-opportunity.org/documents/">Raj Chetty</a>
+            		</li>
+
+            	</ul>
+ 
+	            
+	            <ul class="posts">
+	                {% for post in site.categories[page.category] %}
+	                <li><span>{{ post.date | date_to_string }}</span> &raquo;
+	                    <a href="{{ post.url | absolute_url }}">
+		      {{ post.title }}
+		    </a>
+	                </li>
+	                {% endfor %}
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+</main>
