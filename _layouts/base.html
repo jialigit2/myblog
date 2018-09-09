@@ -1,135 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-<title>嘉立的网络日志</title>
-<style type="text/css">
-.socials ul li{
-  margin-left:15px;
-  list-style-type:none;
-  float:left;
-}
-
-
-.socials ul li i{
-  font-size:20px;
-  color:red;
-}
-.nav-inner{
-  #height:90px;
-  position: relative;
-  top: 4px;
-  z-index:1;
-   
-  background-color: #fff;
-}
-main{
-  min-height:310px;
-  #margin-top:60px;
-  line-height:24px;
-}
- .title-wrapper{
-    border-left: 5px solid #d6c2c2;
- }
-.posts .title-wrapper a{
-  #border-left: 5px solid #d6c2c2;
-  padding-left: 5px;
-}
-.posts li{
-  list-style-type: none;
-  margin-bottom:10px;
-}
-
-.date_str{
-  margin-left:5px;
-  font-size:12px;
-  font-style: italic;
-}
-
-.tag{
-  border-radius:3px;
-  font-size:8px;
-  line-height: 10px;
-  padding-left:5px;
-  padding-right:5px;
-  padding-top:2px;
-  padding-bottom:2px;
-  color: #fff;
-  background-color: #17a2b8;
-
-}
-
-.post-meta{
-  margin-left:15px;
-}
-
- .footer {
-  //position: absolute;
-  bottom: 0;
-  width: 100%;
-  //height: 200px; /* Set the fixed height of the footer here */
-  margin-top:10px;
-  line-height: 20px; /* Vertically center the text there */
-  background-color: #f5f5f5;
-}
-
-.footer ul li{
-  list-style-type: none;
-}
-.footer ul{
-  margin-left:0px;
-}
-.footer-inner-wrapper{
-  padding-top:20px;
-  padding-bottom:20px;
-}
-
-.nav-inner{
-  background-color: whitesmoke;
-}
-    </style>
-       <script src="https://code.jquery.com/jquery-3.3.1.min.js"   crossorigin="anonymous"></script>
-  </head>
-  <body>
-   
-        {% include header_blog.html %}
-        <!--    <img src="/img/index_themes/bg.jpg" style="height:250px;width:100%"/>-->
-
-
-             {{ content }}
-       
-    {% include footer_blog.html %}
-     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
- 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <!--google -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124756993-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124756993-1');
-</script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-7269987647163557",
-    enable_page_level_ads: true
-  });
-</script>
+{%- include head_blog.html -%}
 <script id="dsq-count-scr" src="//thisisxian.disqus.com/count.js" async></script>
+<body>
+
+{% include header_blog.html %}
+<!--    <img src="/img/index_themes/bg.jpg" style="height:250px;width:100%"/>-->
+
+{{ content }}
+
+{% include footer_blog.html %}
+     
+ 
+ 
   </body>
 </html>

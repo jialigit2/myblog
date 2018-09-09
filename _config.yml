@@ -25,6 +25,7 @@ url: "http://www.thisisxian.cn" # the base hostname & protocol for your site, e.
 twitter_username: thinkingreedin1
 github_username:  jialigit
 show_excerpts: false
+google_analytics: true
 # Build settings
 markdown: kramdown
 theme: minima
