@@ -45,3 +45,7 @@ tags: Git IT
 	有几个选项很有帮助,您可以通过git help clean来查看具体帮助信息：
 	- 查看clean会清理哪些文件：git clean -dn 
 	- 执行清理用这个命令：git clean -df
+
+5.如何更快的克隆？
+	请用
+	···--depth=n ··· 选项，这样您就只会克隆最近的n次提交，而不是全部。
