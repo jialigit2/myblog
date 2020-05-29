@@ -128,6 +128,7 @@
 </head>
 
 <body id="bg-theme">
+    <img src="https://api.wrdan.com/randimg?key=mm" data-origin="https://api.wrdan.com/randimg?key=mm" alt="">
     <div id="container">
         <div id="header">
             <h1>嘉立的网络日志</h1>
@@ -152,21 +153,7 @@
     <script src="js/vendor/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
-    function bgImg() {
-        var img_path = "img/index_themes/";
-        var img_num = 7;
-        var img_index = Math.ceil(Math.random() * (img_num));
-        //var img_full_path = img_path + "theme_" + img_index + ".jpg";
-        var img_full_path = "https://api.wrdan.com/randimg?key=mm";
-        $("#bg-theme").css({ "background": "url("+img_full_path+") no-repeat" });
-        $("#bg-theme").css({ "background-position": "50% 50%;" });
-        $("#bg-theme").css({ "background-size": "cover" });
-        $("#bg-theme").css({ "background-attachment": "fixed" });
-    }
-
-    $(function() {
-        bgImg();
-    });
+    
     </script>
 </body>
 
