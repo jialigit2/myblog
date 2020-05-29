@@ -156,8 +156,8 @@
         var img_path = "img/index_themes/";
         var img_num = 7;
         var img_index = Math.ceil(Math.random() * (img_num));
-        var img_full_path = img_path + "theme_" + img_index + ".jpg";
-
+        //var img_full_path = img_path + "theme_" + img_index + ".jpg";
+        var img_full_path = "https://api.wrdan.com/randimg?key=mm";
         $("#bg-theme").css({ "background": "url(img/index_themes/theme_" + img_index + ".jpg) no-repeat" });
         $("#bg-theme").css({ "background-position": "50% 50%;" });
         $("#bg-theme").css({ "background-size": "cover" });
