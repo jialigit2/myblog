@@ -3,7 +3,7 @@ layout: blog
 title:  使用Jekyll 搭建你的个人站点
 tags: Jekyll IT
 ---
-### 使用Jekyll 搭建你的第一个 ***个人站点***
+
 
 <center >
 	<img src="/img/blog/jekyll-logo.png" width="80%"/>

@@ -12,7 +12,7 @@ author: 刘佳利
         <span class="date_str_middle class="post-meta"">发表日期：{{ page.date | date: "%Y年%m月%d日" }}</span>
 
         <span class="post-meta"> 作者:
-                   {{page.author | default: '无名'}}
+                   {{layout.author|page.author | default: '无名'}}
         </span>
         <span class="post-meta">  
 			<span>
@@ -32,6 +32,7 @@ author: 刘佳利
 				 {% for post in site.posts %}
 				 			{% for tag in post.tags limit:1 %}
 				 				 {%if  page.tags contains tag  %} 
+									{% if post.url != page.url %}
 									<li>
 										<div> 
 											<a href="{{ post.url  | relative_url }}">{{ post.title }}</a>
@@ -43,7 +44,7 @@ author: 刘佳利
 											</span>  
 										</div>
 									</li>
-				 				  
+									{% endif %}
 				 				 {% endif %}
 				 			{% endfor %}
 				 {% endfor %} 
