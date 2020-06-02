@@ -4,7 +4,7 @@ title: 关于我
 
 ---
 
-<img class='img-gallary' src="/img/me/IMG_2450.JPG" />
+<img class='img-gallary' src="/img/me/weixin_mingpian.JPG" />
 
 
 我叫刘佳利。
@@ -54,7 +54,8 @@ PHP, Scala等十余种编程语言。
 </style>
 
 ** 本尊照片 **
-<img class='img-gallary' src="/img/me/webwxgetmsgimg-4.jpeg" />
+<img class='img-gallary' src="/img/me/me.jpeg" />
+[更多-》我的相册](/album.html)
 
 
 
