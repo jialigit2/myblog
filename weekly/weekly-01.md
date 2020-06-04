@@ -2,7 +2,9 @@
 layout: weekly
 ---
 
-这是我在网路上看到的收集的一些有意思的内容，在这里和大家分享; 欢迎大家推荐认为重要或有趣的东西。 可以直接在我的[本项目github仓库]（www.github.com/jialigit/myblog)提交issue!
+这是我在网路上看到的收集的一些有意思的内容，在这里和大家分享; 欢迎大家推荐认为重要或有趣的东西; 
+
+可以直接在我的 [本项目github仓库](www.github.com/jialigit/myblog)提交issue!
 
 #### 本周新闻
 1. SpaceX龙2飞船成功载人首飞
