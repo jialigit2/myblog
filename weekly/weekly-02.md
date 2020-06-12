@@ -1,30 +1,35 @@
 
+---
+layout: weekly
+---
+
+这是我在网路上看到的收集的一些有意思的内容，在这里和大家分享; 欢迎大家推荐认为重要或有趣的东西; 
+
+可以直接在我的 [本项目github仓库](www.github.com/jialigit/myblog)提交issue!
+
+![](Global-map-of-potential-tipping-cascades-The-individual-tipping-elements-are-color-coded-1.jpg)
+[我们还能在地球行活多久？](https://www.resilience.org/stories/2020-06-08/collapse-of-civilisation-is-the-most-likely-outcome-top-climate-scientists/)
+
+后疫情时代， 我们应该彻底反思人类的未来了。大国之间的博弈在地球这个大背景下显得多么幼稚和愚蠢！！！人类解决不平等的状况的办法就是不断的发展经济，但是发展并不是无限的！！！可持续发展不光光是一种理念，而是我们必须面对的现实。
+
+我们正在走向危险的边缘！！！
+![](F2.large_.jpg)
 
 #### 资源
 
 1. jupyter/nbviewer
 
-	- **jupyter** 是一个基于网页（web-based)的markdown写作，脚本运行性的集成环境。你可以一遍写论文，一边用代码验证你的想法。默认是支持python, 其他语言(如Julia, R...)需要安装插件。
-	
-	使用jupyter之前，你需要安装python3 和pip, 然后使用pip 安装jupyter.
-	或者您可以选择安装anoconda，它默认就已经包含了jupyter.
-	
-	*启动方法*： `jupyter notebook `
+	- **jupyter** 是一个基于网页（web-based)的markdown写作，脚本运行性的集成环境。你可以一边写论文，一边用代码验证你的想法。默认是支持python, 其他语言(如Julia, R...)需要安装插件。jupyter 包含notebook 和 lab ， 、是
 	
 	- [nbviewer](https://nbviewer.jupyter.org)
 	
 	![](./nbviewer.png)
-	只需要把.ipynb 文件地址（目录也可以）复制进上图表单，它就可以帮助你渲染notebook 文件.
+	
+	viewer 帮助你预览notebook 资源渲染出来的结果。
 	
 2. [几个爱好者对世界名校计算机课程翻译的库](https://github.com/Kivy-CN)
 
 	主要是数据科学，编程等。
 
 
-3. [欧林学院一位教授的个人博客](https://www.allendowney.com/blog/)
 
-	他出版了好几本免费的计算机科学的书籍，这个网站是作者个人博客。
-
-#### 文章
-
-1. 
