@@ -6,7 +6,6 @@ category: IT
 author: 刘佳利
 ---
 
-# 系统管理必须掌握的linux 命令
 `sysadmin must-know linux commands`
 
 ### 文档管理
@@ -34,6 +33,7 @@ author: 刘佳利
 
 ### 软件包管理
 1. apt/yum/rpm 安装查找安装包
+
 ### 网络管理
 1. netstat 查看网络端口
 2. curl 测试一个服务
@@ -70,7 +70,7 @@ author: 刘佳利
 12. source profile 重新执行profile文件配置
 13. find/locate寻找文件
 >	find -name / 'expression'
-14. grep/pgrep 正则筛选，通常用与管道（|）
+14. grep/pgrep 正则筛选，通常用与管道（|）结合使用
 15. su/sudo 切换用户/使用超级权限
 	
 ### 配置
