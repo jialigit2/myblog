@@ -11,4 +11,4 @@
 	未经同行评审的论文提前发布的服务。
 	
 
-	
+3. [异步的Python 并没有快](http://calpaterson.com/async-python-is-not-faster.html)
