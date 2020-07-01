@@ -3,102 +3,43 @@
 **Java must know for java developers**
 
 > 关于Java平台   
-1.0 Java平台有哪些特性
-安全
-高效
-易于分发
-自动内存管理
-可移植性
-1.1 GC 关于垃圾自动回收 
-不用关注内存分配
-回收机制：
-分代算法：新生代，老年代，永久带
+
+1. GC，多线程和内存模型
+
+垃圾回收的设计是为了解除程序员需要手动管理内存空间的麻烦，减少出错，增大了编程的效率。
+
+奇怪的是现在又有很多人需要你知道垃圾回收的原理呢？
+
+
 
 引用计数法
 可达性分析
 
-1.2 Write once, run everywhere 关于虚拟机，性能问题 Java 一般被认为解释型语言，不同于编译语言。.java文件首先是被编译为类文件（.class文件），然后由不同平台的虚拟机来解释执行。 
-
-1.3 java 程序执行机制 
-javac-----(java)----class
-类加载（加载--》链接--》初始化）
-
-
-1.3.1 类加载器有哪些？
-Bootstrap
-ExtClassLoader
-AppClassLoader
-
-1.3.2 Java有哪些基本的数据类型？
-
-byte,int,double,char,boolean
-
-包装类型：
-Integer,Double,Boolean
-
-
-
-1.4 java内存模型 
+2. 内存模型 
+运行时
+编译器
+多处理器
 
 堆： 给程序员的对象的用的内存池
 
-栈：虚拟机栈，创建线程时创建，线程私有
+栈：LIFO, 虚拟机栈，创建线程时创建，线程私有
 
-JVM内存：
-PC 寄存器
+引用和对象：
+引用在栈，对象在堆。
 
-1.5 常量池
-> 包括哪些常量池
-字符串常量池、Class常量池和运行时常量池
-
-字面量 符号引用
+3. 重排序 and 多线程
 
 
-String 有关问题
+2. type and class
+java中的基本的数据类型有：
+
+byte,int,double,char,boolean
 
 
-###2 Java多线程设计模式
-创建线程的方法有哪些
-
-线程安全，线程不安全
-
-并发包，执行器，线程池，生产者消费者模式，BlockingQueue
-
-锁，重入锁，乐观锁，悲观锁，读写锁,分布式锁
+ 传值和传址：pass-by-value vs pass-by-address
  
- 数据争用激烈的环境
  
- 行级锁，表级锁，索引的使用
- 
-线程间通信
-CountDownLatch
-wait,sleep,invoke
 
-
-监视器，ThreadLocal
-
-死锁，活锁问题
-例子：孙越买葱巧遇张晓斐
-###3 JDK 有哪些工具，怎么使用？ 
-
-	3.1 jstat 查看堆内存
-	
-	jstat -gc垃圾回收统计
-	监控运行状态，类装载，内存，垃圾收集
-	定位虚拟机性能问题
-		
-	
-
-	3.2 jmaps &&jhat
-	jmap -histo <vmid>
-	堆栈信息，查看java对使用情况
-	java对使用情况的内存镜像
-	内存泄漏
-	3.3 jstack 线程快照
-
-	堆栈跟踪工具
-	
-	当前时刻的线程快照，定位线程长时间出现停顿的原因
 ##4. Java 的生态 
 
 4.1 Web 开发 
@@ -251,10 +192,3 @@ JDBC 事务，JTA 事务
 
 一个基于CAP的最终一致性理论BASE理论是目前解决分布式问题比较靠谱的。
 
-
-
-
-
-大数据：
-spark
-rdd--->dataset
