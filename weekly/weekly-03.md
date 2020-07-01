@@ -29,18 +29,23 @@ layout: weekly
   
 6 [《费恩曼物理学讲义》英文原版在线阅读](https://www.feynmanlectures.caltech.edu/)   
 
-	[一些视频讲座](https://www.spaces.ac.cn/category/Resources/2/)  
-	
+  [一些视频讲座](https://www.spaces.ac.cn/category/Resources/2/)  
+
+7. [科学空间](https://www.spaces.ac.cn/)	 
+   
+   挺有趣的一个博主
+   
+   
 ### 一句话：
 
-7. 人们宁愿和大家一起犯错，也不愿意成为唯一正确的人。-- 米歇尔.沃克
+8. 人们宁愿和大家一起犯错，也不愿意成为唯一正确的人。-- 米歇尔.沃克
 
    群体性思维的特点就是随大流。
    这一本[灰犀牛](https://book.douban.com/subject/26961851/)，作者米歇尔.沃克
    推荐给大家。
    ![](weekly-03_files/1.jpg)
    
-8. 历史不会简单的重复，但总是押韵。 -- 马克.吐温
+9. 历史不会简单的重复，但总是押韵。 -- 马克.吐温
 
-9. 很多黑天鹅到最后其实都是灰犀牛。 -- 自己
+10. 很多黑天鹅到最后其实都是灰犀牛。 -- 自己
 	
