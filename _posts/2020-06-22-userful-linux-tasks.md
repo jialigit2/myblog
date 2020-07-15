@@ -80,8 +80,13 @@ author: 刘佳利
 ### 实例：
 1. How to remove many (200 000) files?
 
-	`find -name * | xargs rm -f`
+	`find -name \'*\' | xargs rm -f`
 	
+	find -name '*2020_05*.wav' | xargs rm -f
+	select count(*) from `call_user_audio` where add_time <= '2020-05-30'
+	
+	
+	delete from `call_user_audio` where add_time <= '2020-05-30'
 2. how to add a new user in linux?
 
 	```
