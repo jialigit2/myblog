@@ -53,7 +53,7 @@ title: 关于我
 
 感谢您的关注！
 
-<s/Users/ice/githome/myblog/resume.mdtyle type="text/css">
+<style type="text/css">
 	.img-gallary{
 		width:300px;
 	}
