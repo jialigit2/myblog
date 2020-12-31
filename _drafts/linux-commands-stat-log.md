@@ -6,9 +6,15 @@ find . -name "spring*tar-all.tar" | xargs -i cp {} /opt/release/
 删除操作：
 
 查看句柄数排序：
-lsof -n|awk '{print $2}'|sort|uniq -c|sort -nr|more
+lsof -n|awk '{print $2}'|sort|uniq -c|sort -nr|head -n 10
+lsof -n|awk '{print $2}'|uniq -c|sort -nr|head -n 10
+lsof -n|awk '{print $6}'|uniq -c|sort -nr|head -n 10
+List all TCP & UDP process running on specific port (lsof -i TCP/UDP:port)
+lsof -i TCP:80
 
-
+lsof -c comand-name
+lsof  -i -sTCP:LISTEN
+lsof  -i |  grep  -i LISTEN
 统计Apache或nginx日志里访问次数最多的前十个IP或前100都是可以的。
 
 1. 根据访问IP统计UV
@@ -51,7 +57,11 @@ head -n 10：取排在前5位的IP 。
 
 ls -l /proc/pid/fd
 /etc/security/limits.conf
-
+	root soft nofile 65535
+	root hard nofile 65535
+	* soft nofile 65535
+	* hard nofile 65535
+* 
 ulimit -Sn 65536
 
 ulimit -Hn 65536
