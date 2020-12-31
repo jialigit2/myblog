@@ -4,7 +4,7 @@
 	
 		ls -l /proc/pid/fd
 
-2. 句柄数量排序
+2. 查看句柄数排序：
 		
 		lsof -n|awk '{print $2}'|uniq -c|sort -nr|head -n 10
 3. 修改系统句柄数量（持久）
@@ -27,10 +27,19 @@
 		lsof -p 345031 -r  1800> lsof.out
 	r is for repeat mode
 
-6: 查看占用某个端口的进程
+6. 查看占用某个端口的进程
 	
 		lsof -i :port
 等价于： 
 
 		netstat -nlp|grep port
+		
+7.  lsof -i TCP:80
+
+8. lsof -c comand-name
+
+9. 
+
+	lsof  -i -sTCP:LISTEN
+	lsof  -i |  grep  -i LISTEN
 		
