@@ -4,8 +4,6 @@
 
 This will list the pipes
 
-	ls -l /proc/pid/fd
-
 
 /etc/security/limits.conf
 
