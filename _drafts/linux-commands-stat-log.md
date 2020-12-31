@@ -51,21 +51,3 @@ sort -nr -k1：按照重复行出现的次序倒序排列,-k1以第一列为标�
 head -n 10：取排在前5位的IP 。
 
 您这边找到您的访问日志进行统计就可以了。
-
-
-# 文件句柄：
-
-ls -l /proc/pid/fd
-/etc/security/limits.conf
-	root soft nofile 65535
-	root hard nofile 65535
-	* soft nofile 65535
-	* hard nofile 65535
-* 
-ulimit -Sn 65536
-
-ulimit -Hn 65536
-
-output the lsof overtime
-
-lsof -p [PID] -r [interval in seconds, 1800 for 30 minutes] > lsof.out
