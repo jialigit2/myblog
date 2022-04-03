@@ -35,7 +35,7 @@ When at the case that we develop very rapidly, we only need to maintain one late
 In this workflow, we keep one main branch, which is long-term existing branch. Contributors fork this repo, pull the latest code, commit their codes, and impose a *pull request* to the team's main branch. After merged into the main branch, other contributors need to pull this update to their developing branch before impose their pull requests.
 
 The below diagram simply shows what we do:
-![it-flow-maintain-only-latest-version](../img/blog/git-flow-maintain-only-latest-version.png)
+![it-flow-maintain-only-latest-version](/img/blog/git-flow-maintain-only-latest-version.png)
 
 ## Maintain multiple versions at the same time
 
@@ -44,7 +44,7 @@ When at the case that we want to develop a experimental feature, we may choose t
 This scenario is almost like the above except that we keep two develop branch, "main branch" and "branch_2.x", in which case "branch_2.x" will exist for a relatively long duration before merged into main branch. When “branch_2.x" merged into main, we then go back to the flow in the previous section again.
 
 The below diagram simply shows what we do:
-![git-flow-mantains-multiple-version](../img/blog/git-flow-mantains-multiple-version.png)
+![git-flow-mantains-multiple-version](/img/blog/git-flow-mantains-multiple-version.png)
 
 ## Reference
 
