@@ -4,8 +4,11 @@ title:  GitHub how to decide the git flow
 tags:  git-flow github
 category:  github
 ---
+# Manage project on github
 
-# Publish strategy
+Software development is always a team work. Different coders contribute codes by their own from their places. Git is a content version management tool. And github is a platform integrating git and other project management kits online. Many people from around the world decide manage their codes on github nowadays.
+
+## Publish strategy
 
 Before talking about the work flow for the repo branch management, we have to make it clear what publish strategies we use. This strategy we usually call version strategy. The branch management workflow serve this purpose.
 
@@ -13,7 +16,7 @@ Different products may apply different strategies. For example, if you are devel
 
 Another example is that, we develop for a website. As is know, website nowadays always changes a lot. For this kind of product, we don't need to keep a concept of version. We just deploy our new contents continually.
 
-# Git workflow
+## Git work-flow
 
 Github is global open-source coding tracking platform. Developers from different places can collaborate and contribute their code together. Hence one aspect of developing project management is about the codes in the github repo.
 
@@ -28,7 +31,7 @@ Software products or libraries release a lot these days, this means they rarely 
 
 In this post, we will see two scenarios where we impose different git branch management strategies. The common place is that there is just one main branch for long term life cycle.
 
-## Only maintain the latest version
+### Only maintain the latest version
 
 When at the case that we develop very rapidly, we only need to maintain one latest version for the product.
 
@@ -37,7 +40,7 @@ In this workflow, we keep one main branch, which is long-term existing branch. C
 The below diagram simply shows what we do:
 ![it-flow-maintain-only-latest-version](/img/blog/git-flow-maintain-only-latest-version.png)
 
-## Maintain multiple versions at the same time
+### Maintain multiple versions at the same time
 
 When at the case that we want to develop a experimental feature, we may choose to for a develop branch for this feature. Usually we will make great changes in this experimental feature in this branch, and will track this branch for a major version upgrade, for example: 2.x. In this scenario, we can fork a new branch a the develop branch for this major version.
 
